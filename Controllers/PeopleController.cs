@@ -28,7 +28,7 @@ namespace API.Controllers
           {
               return NotFound();
           }
-            return await _context.People.ToListAsync();
+            return await _context.People.Include("Department").ToListAsync();
         }
 
         // GET: api/People/5
@@ -39,7 +39,7 @@ namespace API.Controllers
           {
               return NotFound();
           }
-            var person = await _context.People.FindAsync(id);
+            var person = await _context.People.Include(p => p.Department).FirstOrDefaultAsync(p => p.Id == id);
 
             if (person == null)
             {
