@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\project\\API\\API.csproj": {}
+    "C:\\Users\\Filipe\\Desktop\\React Native App\\API\\API.csproj": {}
   },
   "projects": {
-    "C:\\project\\API\\API.csproj": {
+    "C:\\Users\\Filipe\\Desktop\\React Native App\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\project\\API\\API.csproj",
+        "projectUniqueName": "C:\\Users\\Filipe\\Desktop\\React Native App\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\project\\API\\API.csproj",
-        "packagesPath": "C:\\Users\\filipe.thornhill\\.nuget\\packages\\",
-        "outputPath": "C:\\project\\API\\obj\\",
+        "projectPath": "C:\\Users\\Filipe\\Desktop\\React Native App\\API\\API.csproj",
+        "packagesPath": "C:\\Users\\Filipe\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Filipe\\Desktop\\React Native App\\API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "D:\\Visual Studio Shared Components\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\filipe.thornhill\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Filipe\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -101,7 +101,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     }
