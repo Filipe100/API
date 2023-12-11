@@ -1,1 +1,0 @@
-dotnet aspnet-codegenerator controller -name PeopleController -m API.Models.Person -dc API.Models.RoiDatabaseContext --relativeFolderPath Controllers --useDefaultLayout --referenceScriptLibraries -api

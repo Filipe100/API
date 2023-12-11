@@ -26,7 +26,7 @@ public partial class RoiDatabaseContext : DbContext
     {
         modelBuilder.Entity<Department>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__Departme__3214EC079A3A2A74");
+            entity.HasKey(e => e.Id).HasName("PK__Departme__3214EC0781283AFE");
 
             entity.Property(e => e.Id).ValueGeneratedNever();
             entity.Property(e => e.Name).HasMaxLength(255);
@@ -34,7 +34,7 @@ public partial class RoiDatabaseContext : DbContext
 
         modelBuilder.Entity<Person>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__People__3214EC07E778D539");
+            entity.HasKey(e => e.Id).HasName("PK__People__3214EC0705DA948B");
 
             entity.Property(e => e.City).HasMaxLength(255);
             entity.Property(e => e.Country).HasMaxLength(255);
@@ -48,7 +48,7 @@ public partial class RoiDatabaseContext : DbContext
 
             entity.HasOne(d => d.Department).WithMany(p => p.People)
                 .HasForeignKey(d => d.DepartmentId)
-                .HasConstraintName("FK__People__Departme__267ABA7A");
+                .HasConstraintName("FK__People__Departme__398D8EEE");
         });
 
         OnModelCreatingPartial(modelBuilder);
